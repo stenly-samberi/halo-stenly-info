@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,500;0,600;1,500&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Display', sans-serif; */
+
+:root {
+   --Violet-Primary: #8643DC;
+   --Pink-Primary: #FF59C1;
+   --Black-Primary: #25202F;
+   --Dark: #5A6378;
+   --White-Dark: #F8F8F8;
+   --White-Primary : #FFFFFF;
+ }
+
+ .body{
+  background-color: var(--White-Primary);
+   font-family: 'Red Hat Display', sans-serif;
+ }
+
+ /* Desktop style */
+
+ /* hero style */
+
+
+ #about .content-left a{
+ 
+   border-radius: 20px;
+   background-color: var(--Violet-Primary);
+   color: var(--White-Dark);
+   font-family: 'Red Hat Display',sans-serif;
+   text-decoration: none;
+
+ }
+
+ #about .img-hero img{
+   max-width: 300px;
+ }
+
+ #about .img-hero-right{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+ }
+
+ #about .content-left{
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20%;
+ }
+
+ #about .decoration{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 100%;
+ }
+
+ #about .img-hero .decoration{
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+ }
+
+ #about .img-hero .decoration img{
+  position: fixed;
+  top:250px;
+ }
+
+ #about .decoration img{
+  max-width: 116px;
+ }
+
+
+
+ /* end hero style */
+
+ /* end desktop */
